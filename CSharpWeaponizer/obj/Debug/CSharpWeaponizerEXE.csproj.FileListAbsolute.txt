@@ -1,0 +1,7 @@
+C:\Users\localtemp\source\repos\CSharpWeaponizer\CSharpWeaponizer\bin\Debug\CSharpWeaponizer.exe.config
+C:\Users\localtemp\source\repos\CSharpWeaponizer\CSharpWeaponizer\bin\Debug\CSharpWeaponizer.exe
+C:\Users\localtemp\source\repos\CSharpWeaponizer\CSharpWeaponizer\bin\Debug\CSharpWeaponizer.pdb
+C:\Users\localtemp\source\repos\CSharpWeaponizer\CSharpWeaponizer\obj\Debug\CSharpWeaponizerEXE.csprojAssemblyReference.cache
+C:\Users\localtemp\source\repos\CSharpWeaponizer\CSharpWeaponizer\obj\Debug\CSharpWeaponizerEXE.csproj.CoreCompileInputs.cache
+C:\Users\localtemp\source\repos\CSharpWeaponizer\CSharpWeaponizer\obj\Debug\CSharpWeaponizer.exe
+C:\Users\localtemp\source\repos\CSharpWeaponizer\CSharpWeaponizer\obj\Debug\CSharpWeaponizer.pdb
