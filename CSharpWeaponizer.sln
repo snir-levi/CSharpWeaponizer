@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpWeaponizerEXE", "CSharpWeaponizer\CSharpWeaponizerEXE.csproj", "{43F9D45D-E0F3-471F-AA4B-671681C7B43F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpWeaponizerDLL", "CsharpWeaponizerDLL\CsharpWeaponizerDLL.csproj", "{3C76EE3C-DF8C-446F-9382-0BF5C71E0FB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExecutePayload", "ExecutePayload", "{A3AE147C-5A74-47E8-8A15-CADA82CECBC2}"
+	ProjectSection(SolutionItems) = preProject
+		ExecutePayload\ExecutePayload.cs = ExecutePayload\ExecutePayload.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{CD6ECB65-E4C0-4120-9443-A86E2D466E90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeExecution", "CodeExecution", "{A40267F1-FFB5-4E79-B834-F34EB999AC40}"
+	ProjectSection(SolutionItems) = preProject
+		Modules\CodeExecution\ProcessHollowing.cs = Modules\CodeExecution\ProcessHollowing.cs
+		Modules\CodeExecution\ProcessHollowingDInvoke.cs = Modules\CodeExecution\ProcessHollowingDInvoke.cs
+		Modules\CodeExecution\ProcessInjection.cs = Modules\CodeExecution\ProcessInjection.cs
+		Modules\CodeExecution\ProcessInjectionNTDLL.cs = Modules\CodeExecution\ProcessInjectionNTDLL.cs
+		Modules\CodeExecution\StandardDLLInjectionWriteToDisk.cs = Modules\CodeExecution\StandardDLLInjectionWriteToDisk.cs
+		Modules\CodeExecution\VirtualAllocExNumaThreadExecute.cs = Modules\CodeExecution\VirtualAllocExNumaThreadExecute.cs
+		Modules\CodeExecution\VirtualAllocThreadExecute.cs = Modules\CodeExecution\VirtualAllocThreadExecute.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Obfuscation", "Obfuscation", "{FF4FB65C-6236-491D-BE5B-9576520EA6FB}"
+	ProjectSection(SolutionItems) = preProject
+		Modules\Obfuscation\AES.cs = Modules\Obfuscation\AES.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SandboxEvasion", "SandboxEvasion", "{01262A14-1A1F-4DC2-B22D-22E6C14B2086}"
+	ProjectSection(SolutionItems) = preProject
+		Modules\SandboxEvasion\SandboxEvasion.cs = Modules\SandboxEvasion\SandboxEvasion.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F9D45D-E0F3-471F-AA4B-671681C7B43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F9D45D-E0F3-471F-AA4B-671681C7B43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F9D45D-E0F3-471F-AA4B-671681C7B43F}.Debug|x64.ActiveCfg = Debug|x64
+		{43F9D45D-E0F3-471F-AA4B-671681C7B43F}.Debug|x64.Build.0 = Debug|x64
+		{43F9D45D-E0F3-471F-AA4B-671681C7B43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F9D45D-E0F3-471F-AA4B-671681C7B43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F9D45D-E0F3-471F-AA4B-671681C7B43F}.Release|x64.ActiveCfg = Release|x64
+		{43F9D45D-E0F3-471F-AA4B-671681C7B43F}.Release|x64.Build.0 = Release|x64
+		{3C76EE3C-DF8C-446F-9382-0BF5C71E0FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C76EE3C-DF8C-446F-9382-0BF5C71E0FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C76EE3C-DF8C-446F-9382-0BF5C71E0FB1}.Debug|x64.ActiveCfg = Debug|x64
+		{3C76EE3C-DF8C-446F-9382-0BF5C71E0FB1}.Debug|x64.Build.0 = Debug|x64
+		{3C76EE3C-DF8C-446F-9382-0BF5C71E0FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C76EE3C-DF8C-446F-9382-0BF5C71E0FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C76EE3C-DF8C-446F-9382-0BF5C71E0FB1}.Release|x64.ActiveCfg = Release|x64
+		{3C76EE3C-DF8C-446F-9382-0BF5C71E0FB1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A40267F1-FFB5-4E79-B834-F34EB999AC40} = {CD6ECB65-E4C0-4120-9443-A86E2D466E90}
+		{FF4FB65C-6236-491D-BE5B-9576520EA6FB} = {CD6ECB65-E4C0-4120-9443-A86E2D466E90}
+		{01262A14-1A1F-4DC2-B22D-22E6C14B2086} = {CD6ECB65-E4C0-4120-9443-A86E2D466E90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FCA82DE-B708-483E-A14D-FCE714458797}
+	EndGlobalSection
+EndGlobal
